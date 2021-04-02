@@ -1,0 +1,24 @@
+table {
+    border: medium solid #000000;
+    border-collapse: collapse;
+    width: 500px;
+    text-align: center;
+}
+td, th {
+    border: thin solid;
+}
+.fillGrey {
+    background-color: grey;
+}
+.fillGreen {
+    background-color: green;
+}
+.fillRed {
+    background-color: red;
+}
+.alignR {
+    text-align: right;
+}
+.alignL {
+    text-align: left;
+}
