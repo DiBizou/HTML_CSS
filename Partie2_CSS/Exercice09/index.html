@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partie2Exercice9</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <form>
+        <fieldset class="tealBack">
+            <legend class="tealBack">Votre Identité</legend>
+            <ol>
+                <li>
+                    <div>
+                        <label for="civilite">Civilité :
+                            <select name="civilite_form" id="civilite_form">
+                                <option value="Mme">Mme</option>
+                                <option value="Mr">Mr</option>
+                                <option value="NSP">?</option>
+                            </select>
+                        </label>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <label for="name">Nom :</label>
+                        <input type="text">
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <label for="firstname">Prénom :</label>
+                        <input type="text">
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <label for="email">Adresse Mail :</label>
+                      <input type="text">
+                    </div>
+                </li>
+            </ol>
+        </fieldset>
+        <fieldset class="lightBlueBack">
+            <legend class="lightBlueBack">Adresse de Livraison</legend>
+                <ol>
+                    <li>
+                        <div>
+                            <label for="adress">Adresse :</label>
+                            <input type="text">
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <label for="cp">Code Postal :</label>
+                            <input type="text">
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <label for="city">Ville :</label>
+                            <input type="text">
+                        </div>
+                    </li>
+                </ol>
+        </fieldset>
+        <fieldset class="darkBlueBack">
+            <legend class="darkBlueBack">Informations de règlement</legend>
+                <ol>
+                    <li>
+                        <div>
+                            <label for="cardType">Type de Carte :</label> <br>
+                            <input type="checkbox"> Visa <br>
+                            <input type="checkbox"> Mastercard <br>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <label for="cardNum">Numéro de Carte :</label>
+                            <input type="text">
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <label for="secureCode">Code de sécurité :</label>
+                            <input type="text">
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <label for="titulaireName">Nom du titulaire :</label>
+                            <input type="text">
+                        </div>
+                    </li>
+                </ol>
+                <input type="checkbox">
+                <label for="cardMemo">Enregistrer ma carte</label>
+        </fieldset>
+        <input type="submit" value="J'achète">
+    </form>
+</body>
+</html>
