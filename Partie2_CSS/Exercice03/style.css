@@ -8,17 +8,22 @@ td, th {
     border: thin solid;
 }
 .fillGrey {
-    background-color: grey;
+    background-color: rgb(177, 177, 177);
 }
 .fillGreen {
-    background-color: green;
+    background-color: rgb(170, 241, 170);
 }
 .fillRed {
-    background-color: red;
+    background-color: rgb(233, 135, 135);
 }
 .alignR {
     text-align: right;
 }
 .alignL {
     text-align: left;
+}
+.alignCenter {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: fit-content;
 }
