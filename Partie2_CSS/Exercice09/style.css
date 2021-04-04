@@ -16,3 +16,11 @@ div3 {
 .darkBlueBack {
     background-color: #517ABD;
 }
+.size {
+    width: 600px;
+}
+.position {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
