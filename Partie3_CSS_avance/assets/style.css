@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'berkshire_swashregular';
+    src: url('font/berkshireswash-regular-webfont.eot');
+    src: url('font/berkshireswash-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/berkshireswash-regular-webfont.woff2') format('woff2'),
+         url('font/berkshireswash-regular-webfont.woff') format('woff'),
+         url('font/berkshireswash-regular-webfont.ttf') format('truetype'),
+         url('font/berkshireswash-regular-webfont.svg#berkshire_swashregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+header {
+    background-image: url("img/header.jpg");
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 200px;
+    background-position-x: center;
+    background-position-y: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1 {
+    font-size: 4em;
+    text-align: center;
+    vertical-align: auto;
+    font-family: 'berkshire_swashregular', Arial, Helvetica, sans-serif;
+}
+h2 {
+    text-align: center;
+    font-family: 'berkshire_swashregular', Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+nav li {
+    margin: 0 10px;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.presentation {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.divBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.boxOne {
+    width: 300px;
+    height: 400px;
+    border: solid 1px;
+}
+.boxTwo {
+    width: 300px;
+    height: 400px;
+    border: solid 1px;
+}
+.boxThree {
+    width: 300px;
+    height: 400px;
+    border: solid 1px;
+}
+.headerBoxTitle {
+    width: 480px;
+    height: 150px;
+}
+.headerBoxNav {
+    width: 480px;
+    height: 50px;
+}
