@@ -31,7 +31,6 @@ body {
     grid-column: 1;
     grid-row: 1;
     background-color: darkred;
-
 }
 .two {
     grid-column: 2;

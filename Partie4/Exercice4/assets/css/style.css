@@ -8,6 +8,7 @@
             /* Global */
 .upperPart {
     height: 150px;
+    align-items: center;
 }
             /* Window Bar */
 .windowBar {
@@ -49,13 +50,39 @@
     width: 180px;
     text-align: left;
 }
+                /* Logo du menu*/
+.menu {
+    display: grid;
+    height: 13px;
+    width: 13px;
+    grid-gap: 25%;
+}
+.menuLogoRowOne {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: black;
+}
+.menuLogoRowTwo {
+    grid-column: 1;
+    grid-row: 2;
+    background-color: black;
+}
+.menuLogoRowThree {
+    grid-column: 1;
+    grid-row: 3;
+    background-color: black;
+}
             /* Screen */ 
 .screen {
+    display: flex;
     height: 90px;
-    width: 100%;
+    width: 30px;
     font-size: 3em;
     font-weight: bold;
-    text-align: right;
+    margin-left: auto;
+    margin-right: 0;
+    justify-content: center;
+    align-items: center;
 }
             /* Memory Section */
 .memorySection {
