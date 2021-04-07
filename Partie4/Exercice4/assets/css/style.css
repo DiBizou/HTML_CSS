@@ -55,7 +55,7 @@
     display: grid;
     height: 13px;
     width: 13px;
-    grid-gap: 25%;
+    grid-gap: 33%;
 }
 .menuLogoRowOne {
     grid-column: 1;
