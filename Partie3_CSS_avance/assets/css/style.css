@@ -14,7 +14,7 @@ header {
     max-width: 900px;
     padding: 60px;
     text-align: center;
-    background-image: url("img/header.jpg");
+    background-image: url("../img/header.jpg");
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
@@ -109,7 +109,7 @@ p {
     /* Headers Destinations */
 
 .boxHeaderSarcelles {
-    background-image: url("img/sarcelles.jpg");
+    background-image: url("../img/sarcelles.jpg");
     min-width: 300px;
     height: 100px;
     display: flex;
@@ -120,7 +120,7 @@ p {
     background-size: 100%;
 }
 .boxHeaderCharleroi {
-    background-image: url("img/charleroi.jpg");
+    background-image: url("../img/charleroi.jpg");
     min-width: 300px;
     height: 100px;
     display: flex;
@@ -131,7 +131,7 @@ p {
     background-size: 100%;
 }
 .boxHeaderFessenheim {
-    background-image: url("img/fessenheim.jpg");
+    background-image: url("../img/fessenheim.jpg");
     min-width: 300px;
     height: 100px;
     display: flex;
