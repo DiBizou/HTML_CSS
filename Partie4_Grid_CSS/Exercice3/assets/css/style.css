@@ -1,0 +1,80 @@
+        /* Main Grid Propreties */
+.grid {
+    display: grid;
+    height: 10em;
+}
+        /* global block propreties */
+.object {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 1.5;
+    justify-content: center;
+}
+        /* single block propreties */
+.one {
+    grid-column: 1 / 6;
+    grid-row: 1;
+    background-color: rgb(212, 145, 145);
+    border-bottom: solid;
+    border-color: crimson;
+}
+.two {
+    grid-column: 1;
+    grid-row: 2 / 4;
+    background-color: rgb(212, 145, 145);
+    border-right: solid;
+    border-color: crimson;
+}
+.three {
+    grid-column: 2 / 4;
+    grid-row: 2;
+    background-color: rgb(212, 145, 145);
+    border-right: solid crimson;
+}
+.four {
+    grid-column: 4 / 6;
+    grid-row: 2;
+    background-color: rgb(212, 145, 145);
+}
+.five {
+    grid-column: 2 / 6;
+    grid-row: 3;
+    background-color: rgb(212, 145, 145);
+    border-top: solid crimson;
+}
+        /* Responsive Propreties */
+@media (max-width: 640px) {
+    .one {
+        grid-column: 1 / 6;
+        grid-row: 1;
+        background-color: rgb(212, 145, 145);
+        border: none;
+    }
+    .two {
+        grid-column: 1 / 6;
+        grid-row: 2;
+        background-color: rgb(212, 145, 145);
+        border-top: solid crimson;
+        border-right: none;
+    }
+    .three {
+        grid-column: 1 / 6;
+        grid-row: 3;
+        background-color: rgb(212, 145, 145);
+        border-top: solid crimson;
+        border-right: none;
+    }
+    .four {
+        grid-column: 1 / 6;
+        grid-row: 4;
+        background-color: rgb(212, 145, 145);
+        border-top: solid crimson;
+    }
+    .five {
+        grid-column: 1 / 6;
+        grid-row: 5;
+        background-color: rgb(212, 145, 145);
+        border-top: solid crimson;
+    }
+}
