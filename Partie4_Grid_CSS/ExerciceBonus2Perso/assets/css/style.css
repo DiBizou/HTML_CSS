@@ -48,6 +48,13 @@ p {
 
       /* HEADER */
             /* HEADER GLOBAL */
+@media screen and (max-width: 480px) { 
+  .logo, img {
+    width: 50%;
+    height: 50%;
+  }
+  
+}
 header {
   display: flex;
   flex-direction: row;
@@ -341,6 +348,9 @@ input, textarea {
   margin: 20px;
 }
       /* RESPONSIVE behavior */
+            /* GLOBAL */
+
+            /* PORTFOLIO */
 @media (max-width: 1800px) {
   .portfolioGrid {
     max-width: 1100px;
