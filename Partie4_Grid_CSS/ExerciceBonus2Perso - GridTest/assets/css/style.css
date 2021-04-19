@@ -315,6 +315,7 @@ input, textarea {
                           "img";
     }
 }
+}
 .contentContainer {
   display: grid;
   grid-template-areas: "txt img";

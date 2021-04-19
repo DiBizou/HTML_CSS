@@ -55,7 +55,7 @@ input::placeholder {
     display: flex;
     flex-direction: column;
     justify-content: center;
-margin: auto;
+    margin: auto;
     background: linear-gradient(180deg, rgb(126, 97, 2) 0%, rgb(230, 177, 129) 35%, rgb(195, 201, 165) 100%);
 }
 em {
