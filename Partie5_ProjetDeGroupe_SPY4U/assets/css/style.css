@@ -102,7 +102,7 @@ body {
     justify-content: center;
     height: 30vh;
 }
-/*TEXT*/
+/*Styles de Textes*/
 .titre {
     display: flex;
     align-items: center;
@@ -217,7 +217,6 @@ nav a {
     color: #F2F2F2;
     font-size: 1.2em;
     text-decoration: none;
-
 }
 nav a:hover {
     color: #E17A04;
@@ -225,9 +224,7 @@ nav a:hover {
 nav a:active {
     color: #E17A04;
 }
-
 /***********************************ACCUEIL**********************************/
-
 #accueil {
     background-image: url(../img/desktop_banner.jpg);
 }
@@ -250,7 +247,6 @@ nav a:active {
     text-align: center;
     margin-top: 20px;
 }
-/***********************************PAS MA PARTIE**********************************/
 /***********************************PRESENTATION**********************************/
 #agrement {
     background-image: url(../img/desktop_justice.jpg);
@@ -258,7 +254,6 @@ nav a:active {
 #disponibilite {
     background-image: url(../img/desktop_dispo.jpg);
 }
-
 /***********************************DOMAINE**********************************/
 #adultere {
     background-image: url(../img/desktop_adultere.jpg);
@@ -270,7 +265,6 @@ nav a:active {
 #vol {
     background-image: url(../img/desktop_vol.jpg);
 }
-
 /***********************************QUI SUIS JE**********************************/
 #davidLogan {
     background-image: url(../img/desktop_david_logan2.jpg);
@@ -399,8 +393,6 @@ textarea {
 .subButton input:hover {
     color: #E17A04;
 }
-
-
 /***********************************FOOTER**********************************/
 footer {
     display: grid;
@@ -537,22 +529,19 @@ footer {
         padding-right: 0;
         padding-left: 0;
     }
-    /*Background images*/
+/*Positions des Background images*/
     /*Accueil*/
     #accueil {
         background-position-x: -900px;
     }
     /*Presentation*/
-
     #agrement {
         background-position-x: -300px;
     }
     #disponibilite {
         background-position-x: -400px;
     }
-    
-
-    /*prestations*/
+    /*Prestations*/
     #recherche {
         background-position: bottom left;
         background-position-x: -280px;
@@ -563,16 +552,12 @@ footer {
     #adultere {
         background-position-x: -150px;
     }
-    
-
-    /*Qui suisje*/
+    /*Qui suis-je*/
     #davidLogan {
-
         background-position: bottom left;
         background-position-x: -650px;
     }
-
-
+/*Categories*/
     /*Accueil*/
     .video {
         display: none;
@@ -614,7 +599,6 @@ footer {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         height: 80%;
- 
     }
     .chiffresFlex {
         display: flex;
